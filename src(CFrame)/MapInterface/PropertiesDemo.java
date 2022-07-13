@@ -3,6 +3,8 @@ package MapInterface;
 import java.io.*;
 import java.util.*;
 
+
+//Create or read the file
 public class PropertiesDemo {// Subclass of HashTable
 
 	public static void main(String[] args) {

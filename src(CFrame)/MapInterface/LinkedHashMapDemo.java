@@ -8,7 +8,7 @@ public class LinkedHashMapDemo {
 		// TODO Auto-generated method stub
 		                                                                //true represent here Order of access , false will represent Order of Insertion
 		LinkedHashMap<Integer, String> LHM = new LinkedHashMap<>(5, 0.50f,true) {
-			
+			                                                      //loading factor (0.50f)
 			protected boolean removeEldestEntry(Map.Entry e)
 			{
 				return size()>5;

@@ -14,6 +14,7 @@ class MyLargerComp implements Comparator<Integer>
 		}
 }
 
+//Setting the priority of elements
 class MySmallerComp implements Comparator<Integer>
 {
 	
@@ -24,6 +25,8 @@ class MySmallerComp implements Comparator<Integer>
 			return 0;
 		}
 }
+
+
 public class PriorityQueueDemo {
 
 	public static void main(String[] args) {

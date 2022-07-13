@@ -8,8 +8,10 @@ public class TreeMapDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-       TreeMap<Integer,String> tm=new TreeMap<>(Map.of(100,"A",101,"B",102,"C",103,"D")); //Map.of 
+               
+		
+		      //key     value
+       TreeMap<Integer,String> tm=new TreeMap<>(Map.of(100,"A",101,"B",102,"C",103,"D")); //Map.of     key and value pair
         //TreeMap is sorted map 
 
         tm.put(104,"E");
@@ -22,7 +24,7 @@ public class TreeMapDemo {
         Entry<Integer, String> e = tm.lastEntry();//return last key and values
         Entry<Integer, String> ef = tm.firstEntry();//return first key and values
         
-        System.out.println(ef.getKey()+" "+ef.getValue());
+        System.out.println(ef.getKey()+" "+ef.getValue()); //Will fetch key and value
         System.out.println(e.getKey()+" "+e.getValue());
         
         System.out.println(tm);

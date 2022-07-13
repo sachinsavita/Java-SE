@@ -10,6 +10,8 @@ public class HashTableDemo {// foloow key value
 		Hashtable ht0 = new Hashtable<>();
 		Hashtable<Integer, String> ht = new Hashtable<>();//Implements Map class
 
+		
+		   //key, "value"
 		ht.put(1, "A");
 		ht.put(2, "B");
 		ht.put(3, "C");

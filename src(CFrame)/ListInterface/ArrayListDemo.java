@@ -76,7 +76,7 @@ public class ArrayListDemo {
          System.out.println("changed expression");
          al2.forEach(System.out::println);
 		 
-         System.out.println("Show method");
+         System.out.println("Calling Show method");
          al2.forEach(n->show(n));
          
          
