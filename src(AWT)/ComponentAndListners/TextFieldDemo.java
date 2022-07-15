@@ -9,7 +9,7 @@ class MyFrame3 extends Frame
 	Label l1,l2;
 	TextField tf;
 	
-	
+	//Constructor
 	public MyFrame3()
 	{
 		super("Text Field Demo");
@@ -28,6 +28,7 @@ class MyFrame3 extends Frame
 		
 		//Setting layout
 		setLayout(new FlowLayout());
+		//Adding components
 		add(l1);
 		add(tf);
 		add(l2);
@@ -49,12 +50,12 @@ class MyFrame3 extends Frame
 	    }
 		
 }
-		public class TextFieldDemo {
+public class TextFieldDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		
+		//Object of class Frame
 		MyFrame3 mf = new MyFrame3();
 		mf.setVisible(true);
 		mf.setSize(500,500);
