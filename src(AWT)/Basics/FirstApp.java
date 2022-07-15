@@ -1,4 +1,6 @@
+//First approach
 
+package Basics;
 
 import java.awt.*;
 	
