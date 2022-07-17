@@ -12,11 +12,11 @@ public class ArrayDequeue {
 		//Deletion and insertion from same end -- Stack
 		ArrayDeque<Integer> ad = new ArrayDeque<>();
 		
-		ad.addLast(5);
-		ad.offerLast(10);
-		ad.offerLast(15);
-		ad.offerLast(18);
-		ad.pollLast();
+//		ad.addLast(5);
+//		ad.offerLast(10);
+//		ad.offerLast(15);
+//		ad.offerLast(18);
+//		ad.pollLast();
 		System.out.println(ad);//Deleting from last
 		
 		ad.offerFirst(1);  //Adding at first (@index 0) and shifting other elements
