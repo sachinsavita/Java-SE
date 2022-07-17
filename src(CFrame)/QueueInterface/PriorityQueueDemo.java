@@ -14,7 +14,7 @@ class MyLargerComp implements Comparator<Integer>
 		}
 }
 
-//Setting the priority of elements
+//Setting the priority of elements through comparator
 class MySmallerComp implements Comparator<Integer>
 {
 	
