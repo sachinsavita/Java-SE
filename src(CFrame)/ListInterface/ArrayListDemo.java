@@ -16,6 +16,8 @@ public class ArrayListDemo {
 		
 	    al1.addAll(al2);  //This will add all the elements of al2 in al1 after the element of al1
 	    System.out.println(al1);
+	    Collections.reverse(al1);
+	    System.out.print(al1);
 		al1.addAll(0,al2);  //This will add all elements of al2 into al1 from index 0
 		System.out.println(al1);
 		System.out.println(al1.contains(8));  //This will check whether the element present or not
@@ -78,6 +80,7 @@ public class ArrayListDemo {
 		 
          System.out.println("Calling Show method");
          al2.forEach(n->show(n));
+         
          
          
          

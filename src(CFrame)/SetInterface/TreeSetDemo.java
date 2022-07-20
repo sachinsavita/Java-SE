@@ -20,6 +20,23 @@ public class TreeSetDemo {
 		System.out.println(ts.ceiling(72 ));  //It will return the number if present otherwise it will return next bigger number in set
 
 		System.out.println(ts);
+		int count = 0;
+		for(int t : ts)
+		{
+			count++;
+		}
+		System.out.println(ts);
+		Object[] arr = ts.toArray();
+	
+		System.out.println(arr[2]);
+		System.out.println("check");
+		for(Object t : arr)
+		{
+			System.out.print(t+" ");
+		}
+		System.out.println("hi");
+		
+		
 	}
 
 }

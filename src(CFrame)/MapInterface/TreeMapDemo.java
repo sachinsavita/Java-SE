@@ -18,7 +18,7 @@ public class TreeMapDemo {
         tm.put(150,"F");
        
         System.out.println(tm.ceilingKey(130));//give key will return key if present otherwise next bigger key if present otherwise null
-        System.out.println(tm.ceilingEntry(103));//give key will return key with value
+        System.out.println(tm.ceilingEntry(103));//give key will return key with value, greater than or equal to the given ke
         System.out.println(tm.get(104));//give key will return value
         
         Entry<Integer, String> e = tm.lastEntry();//return last key and values
