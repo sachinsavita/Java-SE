@@ -16,7 +16,7 @@ public class HashSetDemo {
 		
 		
 		System.out.println(hs);   //see elements are not stored as inserted they are here and there
-		
+	    
 		//Use of this if you want insertion and deletion in constant time 
 		//Use loading factor precisely to avoid wastage of memory
 		
