@@ -8,5 +8,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="src(CFrame)"/>
 	<classpathentry kind="src" path="src(AWT)"/>
+	<classpathentry kind="src" path="Multithreading"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

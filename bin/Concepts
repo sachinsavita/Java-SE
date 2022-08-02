@@ -1,0 +1,52 @@
+1.To Make a thread you have to extends the 'Thread' class or 'Runnable' Interface
+
+
+2.States of a thread
+
+
+new ------start()------> ready ----run()---->running-------end---->Terminate
+                                             1.wait
+                                             2.timedWait -- sleep()
+                                             3blocked
+                                             
+3.Thread Priority: Thread.Min_Priority = 1
+                   Thread.Norm_Priority = 5
+                   Thread.Max_Priority = 10
+                   
+4. Thread class constructors: Thread()
+                              Thread(String name)
+                              Thread(Runnable r)
+                              Thread(Runnable r, String name)   
+                              Thread(ThreadGroup g,, String name)
+                              
+5. Mthods: 
+
+a. get and set methods: long getId()
+                        String getName()
+                        int getPriority()
+                        Thread.state getState();
+                        ThreadGroup getThreadGroup()
+                        
+                        void setName()
+                        void setPriority()
+                        void setDaemon(boolean d)
+                        
+                        Daemon thread: Daemon thread is a background thread which have least priority.
+                        ex: Garbage collection
+                        
+b. Enquiry:  boolean isAlive();
+             boolean isDaemon();
+             boolean isInterrupted();
+             
+c. Instance Methods:  void Interrupt()
+                      void join()  
+                      void join(long millis)
+                      void run()
+                      void start()
+                      
+d. static methods: int activeCount()
+                   Thread currentThread()
+                   void yeild()
+                   void dumpStack()                                                         
+                                              
+                                             
