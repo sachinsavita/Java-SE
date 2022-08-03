@@ -46,7 +46,7 @@ c. Instance Methods:  void Interrupt()
                       
 d. static methods: int activeCount()
                    Thread currentThread()
-                   void yeild()
+                   void yeild()   // give chance to other threads to execute
                    void dumpStack()                                                         
                                               
                                              
