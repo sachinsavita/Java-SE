@@ -25,6 +25,7 @@ public class HashSetDemo {
 		
 		//How to sort a Set 
 		List<Integer> sl = new ArrayList<Integer>();
+		
 	    for (int i : hs){
 	    sl.add(i);
 	}
